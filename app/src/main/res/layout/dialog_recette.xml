@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/nom"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="4dp"
+        android:hint="@string/nomRecette" />
+
+    <EditText
+        android:id="@+id/valeur"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif"
+        android:maxLength="8"
+        android:digits="0123456789.,"
+        android:hint="@string/valeurRecette" />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton android:id="@+id/radio00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/lunettes30x30"
+            android:drawablePadding="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:text="Nom de PCommun"/>
+
+        <RadioButton android:id="@+id/radio01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/lunettes30x30"
+            android:drawablePadding="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:text="Nom de P1"/>
+
+        <RadioButton android:id="@+id/radio02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/lunettes30x30"
+            android:drawablePadding="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:text="Nom de P2"/>
+
+     </RadioGroup>
+
+</LinearLayout>

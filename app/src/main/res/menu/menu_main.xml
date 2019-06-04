@@ -1,0 +1,18 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_restore"
+        android:icon="@drawable/round_refresh_white_18dp"
+        android:title="restore"
+        app:showAsAction="always"></item>
+    <item android:id="@+id/action_profils"
+        android:icon="@drawable/round_people_black_18dp"
+        android:title="@string/profils"
+        app:showAsAction="never"></item>
+    <item android:id="@+id/action_info"
+        android:icon="@drawable/round_info_black_18dp"
+        android:title="@string/informations"
+        app:showAsAction="never"></item>
+    <item android:id="@+id/action_aide"
+        android:title="@string/aide"
+        app:showAsAction="never"></item>
+</menu>

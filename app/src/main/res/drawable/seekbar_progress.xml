@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@android:id/background">
+        <shape
+            android:shape="line"
+            android:useLevel="true">
+
+            <stroke android:color="#CCC" android:width="4dp" />
+
+        </shape>
+    </item>
+
+    <item android:id="@android:id/progress">
+        <clip android:clipOrientation="horizontal" android:gravity="left">
+            <shape
+                android:shape="line"
+                android:useLevel="true">
+                <stroke android:color="@color/colorPrimary" android:width="4dp"/>
+            </shape>
+        </clip>
+    </item>
+
+</layer-list>
+<!--<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape
+            android:shape="rectangle">
+            <size android:height="4dp"/>
+            <solid android:color="@color/gris"/>
+            <corners android:radius="4dp"/>
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip android:clipOrientation="horizontal" android:gravity="left">
+            <shape android:shape="rectangle">
+                <size android:height="4dp"/>
+                <solid android:color="@color/colorPrimaryDark"/>
+                <corners android:radius="4dp"/>
+            </shape>
+        </clip>
+    </item>
+</layer-list>
+
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@android:id/progress">
+        <clip android:clipOrientation="horizontal" android:gravity="left">
+            <shape xmlns:android="http://schemas.android.com/apk/res/android"
+                android:shape="line">
+                <stroke android:color="@color/colorPrimaryDark" android:width="4dp"/>
+            </shape>
+        </clip>
+    </item>
+
+</layer-list>-->
